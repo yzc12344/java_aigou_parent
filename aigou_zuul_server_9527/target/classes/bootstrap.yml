@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299 #配置服务器
+      lable: master #分支
+      name: zuul_application #github上面名称
+      profile: dev #指定的环境
+
+#      profile: ${spring.actives.profile} #动态的环境
